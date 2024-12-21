@@ -21,7 +21,7 @@ std::vector<int> zinoviev_a_sum_cols_matrix_mpi::generateRandomVector(int size) 
   return vec;
 }
 
-} //namespace zinoviev_a_sum_cols_matrix
+}  // namespace zinoviev_a_sum_cols_matrix
 
 TEST(zinoviev_a_sum_cols_matrix_mpi, EmptyMatrixTest) {
   boost::mpi::communicator world;
